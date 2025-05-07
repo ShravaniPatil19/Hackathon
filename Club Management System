@@ -1,1 +1,30 @@
+This Club Management System is a Java-based console application designed along with use of DSA to simplify and streamline the management of student clubs in educational institutions. It allows for easy creation, management, and participation in clubs and their respective events.
 
+In colleges and universities, managing multiple student clubs, members, and events manually often leads to confusion, missed deadlines, and inefficient communication. This project was created to:
+Organize club-related data efficiently.
+Provide role-based access (Creator, Member, Participant).
+Enable smooth tracking of events and achievements.
+Reduce errors in event registrations and participant records
+
+Core Features:
+
+Club Registration & Exploration:
+ Users can explore available clubs, view detailed club information, and achievements
+Role-Based Access:
+Club Creator: Registers new clubs and becomes the first admin-level member.
+Member: Can add events and achievements under their club.
+Participant: Can register with a student ID, view and join upcoming events, and track registered events.
+Event & Achievement Management:
+ Members can add events with deadlines and associate achievements for each.
+Deadline Handling:
+ Upcoming events are automatically filtered based on the current date.
+Authentication:
+ Secure login for both participants and members using passwords.
+Validation & Exception Handling:
+ Input validations and try-catch blocks ensure robust and user-friendly interactions.
+Tech Stack:
+Language: Java
+Libraries: Java Collections (ArrayList, HashMap), LocalDate, and Scanner
+Concepts Used: OOP, Exception Handling, Role-Based Access, Deadline Filtering
+ Problem Solved:
+Manually managing student clubs can be chaotic and disorganized. This system provides a structured, role-based interface that ensures smoother event tracking, achievement logging, and club participation — all in a console-based environment ideal for early-stage automation or prototype use in campuses.
